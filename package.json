@@ -1,4 +1,12 @@
 {
+    "dependencies":{
+        "inquirer": "^8.2.4",
+        "@svgdotjs/svg.js": "^3.2.0",
+        "svg.js": "^2.7.1",
+        "svgdom": "*"
+        
+    },
+
     "name": "module-10-challenge",
     "version": "1.0.0",
     "description": "My project description",
@@ -6,10 +14,10 @@
     "scripts": {
         "start": "node index.js"
     },
+    "tests": "jest",
     "author": "Your Name",
     "license": "MIT",
-    "dependencies": {
-        "inquirer": "^9.2.16",
+    "devDependencies": {
         "jest": "^29.7.0"
     }
 }
