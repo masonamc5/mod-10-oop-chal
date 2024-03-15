@@ -12,9 +12,10 @@
     "description": "My project description",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "test": "jest"
     },
-    "tests": "jest",
+    
     "author": "Your Name",
     "license": "MIT",
     "devDependencies": {
